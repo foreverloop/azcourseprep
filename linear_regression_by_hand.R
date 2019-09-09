@@ -24,6 +24,7 @@ math_score_deviations_sq = sum(math_score_deviations^2)
 slope = sum(deviation_products) / math_score_deviations_sq
 yintercept = mean(reading_score[0:sev_per]) - (slope * mean(math_score[0:sev_per]))
 
+#this is technically the 'prediction' point e.g 'y = mx + c'
 yregress = ((slope * math_score[0:sev_per]) + yintercept)
 mean_line = rep(mean(reading_score),sev_per)
 
