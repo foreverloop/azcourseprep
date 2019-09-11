@@ -1,5 +1,6 @@
 #various probability distributions from
 #the pre course warm up exercises
+#working on more of the exercises 9/11/2019
 
 #negative 5 to 5 in 100 steps of 0.1 each
 x <- seq(from=-5, to=10, length=101)
