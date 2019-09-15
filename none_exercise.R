@@ -88,4 +88,12 @@ plot(x=dist_km, y=a, type="l")
 #bodmas applies. brackets always take precedence for completion
 6*(5+2)^2/(2+6-9)/7*2
 
+#find the script at this location and run it in this session
+#at uni, backslash will become forward slash (windows)
+#source("/Users/myname/documents/rstuff/tutorial_exercisse.R")
 
+min(c(1:10))
+max(c(1:10))
+#effectively a factorial in this case but more generally multiples
+#the elements within the vector
+prod(c(1:5))
