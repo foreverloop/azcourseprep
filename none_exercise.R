@@ -97,3 +97,9 @@ max(c(1:10))
 #effectively a factorial in this case but more generally multiples
 #the elements within the vector
 prod(c(1:5))
+
+#produces nan if trying to square root a negative number
+x <- -2:2
+y <- c(10, 5, 0, -5, -10)
+sqrt(x) + sqrt(y)
+
