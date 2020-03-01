@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #cleanup disease csv shell script
-
+ 
 #replace " with nothing for all instances on a line and output to a new file
 #sed "s/\"//g" header_only.csv > header_sed.csv
 
