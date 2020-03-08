@@ -11,3 +11,5 @@ polyroot(z=equation_coefficients)
 #second time polyroot is required to be used:
 second_eq_coefficients <- c(0,5,0,-1)
 polyroot(second_eq_coefficients)
+
+#this was not required in the end...
