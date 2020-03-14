@@ -3,6 +3,7 @@ produces histograms showing an approximation of a continuous distribution
 for the probability of rain over the next 24 hours, with a graph for the next 5 days
 
 Contains public sector information licensed under the Open Government Licence
+2020
 """
 import requests,json,csv,ast,numpy
 from matplotlib import pyplot as plt
